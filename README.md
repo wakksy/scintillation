@@ -1,13 +1,10 @@
 # Scintillation
 
-**See what moves in the infrared sky.** Scintillation is a public web tool built for the
+Scintillation is a public web tool built for the
 **NASA Space Apps Challenge 2026**, challenge **"Planet X and SPHEREx"**. You enter a sky
 position (RA/Dec), and the tool shows a series of NASA SPHEREx images of that patch,
-played like a short video ("blink"), so that moving or changing objects are easy to see.
+played like a short video (blink), so that moving or changing objects are easy to see.
 
-> Results from this tool are **candidates**, not discoveries. Pictures are resampled for
-> display and are not suitable for measuring brightness. Every candidate needs expert
-> follow-up.
 
 Live app: *(add the Streamlit Community Cloud link here after deployment)*
 
@@ -26,7 +23,7 @@ Live app: *(add the Streamlit Community Cloud link here after deployment)*
 | **Catalogues** | Optional ESA Gaia DR3 and CatWISE2020 (WISE) markers, moved to each frame's date, with details of the source at the centre and WISE contamination flags. |
 | **Demo data** | Synthetic, watermarked SPHEREx-like frames, so every feature can be tried offline. Not real observations. |
 | **Shareable links** | `?ra=..&dec=..&fov=..` (plus `&gaia=1`, `&wise=1`, `&demo=1`) opens the app at a position. |
-| **Guide** | A glossary of terms (button bottom right), written in Simplified Technical English. |
+| **Guide** | A glossary of terms (button bottom right) |
 
 ## Run it on your computer
 
@@ -100,7 +97,7 @@ All are open source. Licenses were read from the installed package metadata.
 
 ### Fonts
 
-Loaded from Google Fonts at run time (not copied into this repository). All are licensed
+Loaded from Google Fonts at run time. All are licensed
 under the **SIL Open Font License (OFL)**.
 
 | Font | Designer | Use |
@@ -111,15 +108,8 @@ under the **SIL Open Font License (OFL)**.
 
 ### Logo
 
-The compass-star logo (`assets/logo.png`, `assets/favicon.png`) was **drawn by the team**.
+The compass-star logo (`assets/logo.png`, `assets/favicon.png`) was drawn by us.
 It is not AI-generated and does not use any NASA or agency logo or design element.
-
-### Writing and accessibility standards
-
-- **ASD-STE100 Simplified Technical English** (applied at about half strength to the Guide
-  text: short sentences, one idea each, active voice).
-- **WCAG 2** colour-contrast guidance (text at least 4.5:1, controls at least 3:1; contrast
-  was measured for the colour scheme).
 
 ## Scientific references
 
@@ -187,7 +177,7 @@ Both team members used Claude.
 
 - **The idea.** The concept (a blink tool for SPHEREx images to find moving objects)
   comes from the NASA challenge brief and the team's own plan. Claude suggested ways to
-  build features; the team chose what to build.
+  build features, and the team chose what to build.
 - **The logo.** It was drawn by the team.
 - **The data.** All real data shown comes from NASA SPHEREx (IRSA), ESA Gaia and
   CatWISE2020. Claude did not create or change any real measurement.
@@ -200,9 +190,7 @@ Both team members used Claude.
   code from invented data. Each one carries the visible watermark
   **"SYNTHETIC DEMO DATA, made with AI-assisted code"**, and the page shows a DEMO MODE
   notice. Real SPHEREx pictures are NASA data and are not watermarked.
-- **Audio:** none.
-- **Video:** if the demo video uses any AI-generated images, voice or footage, it must
-  carry a visible SI watermark and say so in its description.
+
 
 ## Copyright and branding check
 
