@@ -6,7 +6,7 @@ position (RA/Dec), and the tool shows a series of NASA SPHEREx images of that pa
 played like a short video (blink), so that moving or changing objects are easy to see.
 
 
-Live app: *(add the Streamlit Community Cloud link here after deployment)*
+Live app: https://scintillation.streamlit.app/
 
 ---
 
