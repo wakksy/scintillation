@@ -1,0 +1,18 @@
+# downloaded SPHEREx cutouts (can be large; rebuilt automatically)
+cache/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local editor and Claude Code tool files (not part of the app)
+.claude/
+.vscode/
+skills-lock.json
+
+# files the old scripts write
+blink.gif
+aligned.png
+first_look*.png

@@ -13,6 +13,10 @@ Reading the result:
   * a step that is slow or times out  -> that part of IRSA is struggling
   * every step quick                  -> IRSA is fine; the problem is in the app
     (paste this script's output to your mentor either way)
+
+AI use (NASA Space Apps SI disclosure): this file was written with help from
+Claude (Anthropic), used through Claude Code, and reviewed and tested by the
+Scintillation team. The idea and design decisions are the team's. See README.md.
 """
 
 import time

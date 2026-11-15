@@ -1,7 +1,11 @@
-streamlit
-astropy
-astroquery
-reproject
-numpy
-pillow
-pandas
+# Exact versions that passed tests/smoke.py and the live Gaia/WISE checks on
+# Python 3.12 (15 Nov 2026). Pinned so the cloud installs the same thing.
+streamlit==1.67.0
+astropy==8.0.2
+astroquery==0.4.11
+reproject==0.21.0
+numpy==2.5.4
+pillow==13.0.0
+pandas==3.1.1
+pyvo==1.10.0
+altair==6.3.0

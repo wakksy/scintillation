@@ -1,0 +1,27 @@
+# Scintillation colour scheme: the team's four colours plus two supporting tones.
+#   #030164 navy (page)          #363199 indigo (sidebar, panels)
+#   #2D7495 steel blue (lines)   #E8E085 yellow (things to act on or notice)
+#   #01003A darkroom (behind pictures, set in app.py)   #C9E4F2 pale sky (secondary text)
+[theme]
+base = "dark"
+primaryColor = "#E8E085"
+backgroundColor = "#030164"
+secondaryBackgroundColor = "#14127A"
+textColor = "#F3F4FB"
+linkColor = "#E8E085"
+borderColor = "#2D7495"
+baseRadius = "0.6rem"
+showSidebarBorder = false
+font = "'Atkinson Hyperlegible', 'Segoe UI', sans-serif"
+headingFont = "'Bricolage Grotesque', 'Segoe UI', sans-serif"
+chartCategoricalColors = ["#E8E085", "#6FB3D9", "#B9B5FF", "#8FD694", "#F3F4FB"]
+
+[theme.sidebar]
+# Field borders in light blue: steel (#2D7495) measured only 2.0:1 on indigo, below the
+# 3:1 that input outlines need; #6FB3D9 measures 4.4:1. Fields sit in a slightly deeper well.
+backgroundColor = "#363199"
+secondaryBackgroundColor = "#221E85"
+borderColor = "#6FB3D9"
+
+[client]
+toolbarMode = "minimal"
