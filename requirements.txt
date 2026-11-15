@@ -1,0 +1,7 @@
+streamlit
+astropy
+astroquery
+reproject
+numpy
+pillow
+pandas
