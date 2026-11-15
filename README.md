@@ -1,4 +1,4 @@
-# SPHEREx Blink
+# Scintillation
 
 A public web tool for the NASA Space Apps Challenge 2026, **"Planet X and SPHEREx"**.
 Enter a patch of sky (RA and Dec), and the tool shows SPHEREx images of that patch over
